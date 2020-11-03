@@ -120,5 +120,5 @@ dmypy.json
 .pyre/
 
 .idea/
-.venv/
+.venv
 venv/
