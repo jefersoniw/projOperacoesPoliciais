@@ -1,0 +1,22 @@
+* criar uma aplicação de endereços
+- python manage.py startapp enderecos
+
+* registrar a aplicação no django
+- operacoes/settings
+INSTALLED_APPS = [
+	'enderecos',
+]
+
+* criar uma classe de nome enderecos dentro de models
+- editar o arquivo enderecos/models.py
+
+* adicionar a classe ao admin do django
+- admin.site.register(Endereco)
+- faz o import da classe la em cima
+
+* Criar a migração
+- python manage.py makemigrations
+
+* Migrar para o banco
+- python manage.py migrate
+
