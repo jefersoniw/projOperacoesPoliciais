@@ -20,3 +20,6 @@ INSTALLED_APPS = [
 * Migrar para o banco
 - python manage.py migrate
 
+------------------------------------------
+
+* criar uma aplicação de pessoas
