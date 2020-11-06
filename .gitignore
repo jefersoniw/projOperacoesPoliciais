@@ -121,3 +121,7 @@ dmypy.json
 
 .idea/
 venv/
+
+media/fotos_presos/
+media/mandado/
+media/relatorios/
